@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Table element reference">
+  <title>Table</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/css/modern-normalize.min.css">
+  <style type="text/css">
+    .info {
+      
+    }
+
+    .optional {
+
+    }
+
+    th, td {
+      border: 1px solid rgb(160 160 160);
+      padding: 8px 10px;
+    }
+
+    th[scope="col"] {
+      background-color: #505050;
+      color: #fff;
+    }
+
+    th[scope="row"] {
+      background-color: #d6ecd4;
+    }
+
+    tr:nth-of-type(odd) td {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>
+      This is the caption of a table
+    </caption>
+
+    <colgroup>
+      <col />
+      <col span="2" class="info" />
+      <col class="optional" />
+    </colgroup>
+
+    <thead>
+      <tr>
+        <th scope="col">No. </th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Born</th>
+      </tr>
+    </thead>
+
+    <tfoot>
+      <tr>
+        <th scope="row">no. </th>
+        <td>name</td>
+        <td>description</td>
+        <td>born</td>
+      </tr>
+    </tfoot>
+
+    <tbody>
+      <tr>
+        <th scope="row">001</th>
+        <td>Alice</td>
+        <td>Go crazy about about nuts.</td>
+        <td>1999</td>
+      </tr>
+      <tr>
+        <th scope="row">002</th>
+        <td>Bob</td>
+        <td>Foo chose nut over boo.</td>
+        <td>2000</td>
+      </tr>
+    </tbody>
+
+  </table>
+
+  <table>
+    <caption>
+      Personal weekly activities
+    </caption>
+
+    <colgroup span="5" class="info"></colgroup>
+    <colgroup span="2" class="optional"></colgroup>
+
+    <tr>
+      <th>Mon</th>
+      <th>Tue</th>
+      <th>Wed</th>
+      <th>Thu</th>
+      <th>Fri</th>
+      <th>Sat</th>
+      <th>Sun</th>
+    </tr>
+
+    <tr>
+      <td>Clean room</td>
+      <td>Football training</td>
+      <td>Dance Course</td>
+      <td>History Class</td>
+      <td>Buy drinks</td>
+      <td>Study hour</td>
+      <td>Free time</td>
+    </tr>
+
+    <tr>
+      <td>Yoga</td>
+      <td>Chess Club</td>
+      <td>Meet friends</td>
+      <td>Gymnastics</td>
+      <td>Birthday party</td>
+      <td>Fishing trip</td>
+      <td>Free time</td>
+    </tr>
+  </table>
+
+</body>
+</html>

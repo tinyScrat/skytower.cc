@@ -1,0 +1,23 @@
+[
+  {
+    "isbn": "1001",
+    "name": "Elm Guide",
+    "edition": 1,
+    "publish": 1721727641,
+    "authors": ["Jacky"]
+  },
+  {
+    "isbn": "1003",
+    "name": "Elm Guide",
+    "edition": 1,
+    "publish": 1721727641,
+    "authors": ["Alice", "Bob"]
+  },
+  {
+    "isbn": "1003",
+    "name": "Elm Guide",
+    "edition": 1,
+    "publish": 1721727641,
+    "authors": ["Bob", "Hannah"]
+  }
+]

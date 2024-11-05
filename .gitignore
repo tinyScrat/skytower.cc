@@ -1,0 +1,13 @@
+# elm
+elm-stuff
+repl-temp-*
+
+# zig
+.zig-cache
+zig-out
+
+www/**/*.js
+!www/js/*.js
+*.sublime-workspace
+
+**/.DS_Store

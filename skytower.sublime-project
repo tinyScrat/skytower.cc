@@ -1,0 +1,20 @@
+{
+  "folders":
+  [
+    {
+      "path": ".",
+      "folder_exclude_patterns": [
+        "elm-stuff",
+        ".zig-cache",
+        "zig-out"
+      ],
+      "file_exclude_patterns": [
+        "*.sublime-project",
+        "*.wasm",
+        "*.min.css",
+        "*.min.js",
+        "*.ico",
+      ],
+    }
+  ],
+}
